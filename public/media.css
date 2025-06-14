@@ -1,0 +1,240 @@
+@media (min-width: 0px) {
+  .nav-links,
+  .btn {
+    display: none;
+  }
+  .nav-icon i {
+    font-size: 25px;
+  }
+  .header {
+    justify-content: space-between;
+  }
+  .nav-icon {
+    margin-right: 20px;
+  }
+  .main {
+    background-position: left;
+  }
+  .main p {
+    font-size: 20px;
+  }
+
+  .main-worker {
+    flex-direction: column;
+  }
+  .secondary-workers {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  .why-us-container {
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 600px) {
+  .header {
+    height: 100px;
+  }
+  .logo img {
+    height: 125px;
+    justify-content: center;
+    margin-top: 15px;
+  }
+  .slogan {
+    font-size: 13px;
+  }
+
+  .second-container .second-container-desc {
+    font-weight: bold;
+    font-size: 20px;
+    width: 90%;
+  }
+
+  .worker-info p {
+    font-size: 20px;
+  }
+  .worker-card{
+    margin-bottom: 30px;
+  }
+
+  .worker-card h3{
+    font-size: 25px;
+  }
+
+  .worker-card-info p{
+    font-size: 25px;
+  }
+
+  .why-us-desc{
+    font-size: 20px;
+  color: #ddd;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  width: 90%;
+  }
+
+  .why-us-card p{
+    font-size:25px ;
+  }
+  .achievement p{
+    font-weight: bold;
+    font-size: 25px;
+    width: 90%;
+  }
+
+
+}
+
+@media (min-width: 740px) {
+  .why-us-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+@media (min-width: 900px) {
+  .secondary-workers {
+    display: grid;
+    grid-template-columns: 430px 430px;
+    grid-template-rows: 642px 642px 642px 642px;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    flex-wrap: nowrap;
+  }
+
+  .counter-section {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .counter-box {
+    width: 300px;
+    height: 190px;
+    box-shadow: 0 0 20px #9c7951;
+  }
+  .vertical-separator {
+    width: 2px;
+    height: 200px;
+    display: none;
+  }
+
+}
+
+@media (min-width: 1055px) {
+  .nav-icon i {
+    display: none;
+  }
+  .nav-links,
+  .btn {
+    display: flex;
+  }
+  .header {
+    justify-content: space-between;
+  }
+  .logo {
+    margin-right: 0px;
+  }
+  .nav-links {
+    padding-right: 200px;
+  }
+  .main-worker {
+    flex-direction: row;
+  }
+  .why-us-container {
+    flex-direction: row;
+  }
+}
+
+@media (min-width: 1263px) {
+  .worker-info {
+    padding-top: 25px;
+  }
+}
+
+@media (min-width: 1358px) {
+  .secondary-workers {
+    display: grid;
+    grid-template-columns: 430px 430px 430px;
+    grid-template-rows: 642px 642px 642px;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    flex-wrap: nowrap;
+  }
+.main-service-section {
+width: 60%;
+}
+}
+@media (max-width: 830px) {
+  .contact-container form {
+    width: 350px;
+  }
+  .input-box {
+    flex-direction: column;
+  }
+  .input-box .input-field {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  form .textarea-field {
+    width: 100%;
+  }
+  form button {
+    width: 80%;
+  }
+  .info-container {
+    margin-left: 0px;
+  }
+  .info-2-container {
+    position: static;
+  }
+}
+.hidden {
+  opacity: 0;
+  transition: all 1s;
+  transform: translateX(-100%);
+}
+.show {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+@media (perfers-reduced-mothion) {
+  .hidden {
+    transition: none;
+  }
+}
+body > div.second-container > div.why-us-container > div:nth-child(1) {
+  transition-delay: 200ms;
+}
+body > div.second-container > div.why-us-container > div:nth-child(2) {
+  transition-delay: 400ms;
+}
+body > div.second-container > div.why-us-container > div:nth-child(3) {
+  transition-delay: 600ms;
+}
+
+body > div.second-container > div.secondary-workers > div:nth-child(1) {
+  transition-delay: 200ms;
+}
+body > div.second-container > div.secondary-workers > div:nth-child(2) {
+  transition-delay: 400ms;
+}
+body > div.second-container > div.secondary-workers > div:nth-child(3) {
+  transition-delay: 600ms;
+}
+
+body > div.second-container > div.secondary-workers > div:nth-child(4) {
+  transition-delay: 200ms;
+}
+body > div.second-container > div.secondary-workers > div:nth-child(5) {
+  transition-delay: 400ms;
+}
+body > div.second-container > div.secondary-workers > div:nth-child(6) {
+  transition-delay: 600ms;
+}

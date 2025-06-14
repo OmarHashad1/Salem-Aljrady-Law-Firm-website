@@ -1,0 +1,177 @@
+#card-1 .front {
+    background-image: url('../assets/imgs/card-images/card-1.jpg');
+    background-size: cover;
+  }
+  
+  #card-1 .back p {
+    position: relative;
+    bottom: 80px;
+  }
+  
+  #card-2 .front {
+    background-image: url('../assets/imgs/card-images/card-2.jpg');
+    background-size: cover;
+  }
+  #card-2 .back p {
+    position: relative;
+    bottom: 80px;
+    margin: 0;
+    font-size: 20px;
+  }
+  #card-3 .front {
+    background-image: url('../assets/imgs/card-images/card-3.jpg');
+    background-size: cover;
+  }
+  #card-3 .back p {
+    font-size: 20px;
+    position: relative;
+    bottom: 80px;
+  }
+  #card-3 {
+    position: relative;
+  }
+  #card-3 .front {
+    background-image: url("../assets/imgs/card-images/card-3.jpg");
+    background-size: cover;
+  }
+  #card-3 .front img {
+    position: absolute;
+    width: 190px;
+    height: 190px;
+  }
+  #card-4 .front {
+    background-image: url("../assets/imgs/card-images/card-4.jpg");
+    background-size: cover;
+  }
+  #card-4 {
+    position: relative;
+  }
+  #card-4 img {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+  }
+  #card-4 .back p {
+    font-size: 20px;
+    position: relative;
+    bottom: 80px;
+  }
+  #card-5 .front {
+    background-image: url('../assets/imgs/card-images/card-5.jpg');
+    background-size: cover;
+  }
+  #card-5 svg {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    left: 15px;
+  }
+  
+  #card-5 .back p {
+    position: relative;
+    bottom: 80px;
+    font-size: 20px;
+  }
+  #card-6 .front {
+    background-image: url('../assets/imgs/card-images/card-1.jpg');
+    background-size: cover;
+  }
+  #card-6 .back p {
+    font-size: 15px;
+    position: relative;
+    bottom: 80px;
+  }
+  #card-7 .front {
+    background-image: url('../assets/imgs/card-images/card-7.jpg');
+    background-size: cover;
+  }
+  
+  #card-7 .back p {
+    font-size: 15px;
+    position: relative;
+    bottom: 80px;
+  }
+  #card-8 .back p {
+    font-size: 20px;
+    position: relative;
+    bottom: 80px;
+  }
+  #card-8 .front {
+    background-image: url('../assets/imgs/card-images/card-8.jpg');
+    background-size: cover;
+  }
+  #card-8 svg {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    left: 20px;
+    bottom: 10px;
+  }
+  #card-9 .back p {
+    font-size: 15px;
+    position: relative;
+    bottom: 80px;
+  }
+  #card-9 .front {
+    background-image: url('../assets/imgs/card-images/card-9.jpg');
+    background-size: cover;
+  }
+  #card-10 .front {
+    background-image: url('../assets/imgs/card-images/card-10.jpg');
+    background-size: cover;
+  }
+  #card-10 svg {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    left: 20px;
+    bottom: 10px;
+  }
+  #card-10 .front h3 {
+    font-size: 30px;
+  }
+ 
+  #card-10 .back p {
+    font-size: 15px;
+    position: relative;
+    bottom: 40px;
+  }
+  #card-11 .front {
+    background-image: url('../assets/imgs/card-images/card-11.jpg');
+    background-size: cover;
+  }
+  #card-11 .back p {
+    font-size: 15px;
+    position: relative;
+    bottom: 30px;
+  }
+
+  #card-12 .front {
+    background-image: url('../assets/imgs/card-images/card-12.jpg');
+    background-size: cover;
+  }
+  #card-12 .back p {
+    font-size: 20px;
+    position: relative;
+    bottom: 30px;
+  }
+  #card-12 .back h1 {
+    position: relative;
+    top: 40px;
+  }
+  #card-13 .front {
+    background-image: url('../assets/imgs/card-images/card-13.jpg');
+    background-size: cover;
+  }
+  #card-13 .front h3 {
+    font-size: 20px;
+  }
+  #card-13 .back h3 {
+    font-size: 20px;
+    text-align: center;
+  }
+  #card-13 .back p {
+    font-size: 15px;
+    position: relative;
+    bottom: 60px;
+  }
