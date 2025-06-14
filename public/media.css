@@ -35,60 +35,7 @@
   }
 }
 
-@media (max-width: 600px) {
-  .header {
-    height: 100px;
-  }
-  .logo img {
-    height: 125px;
-    justify-content: center;
-    margin-top: 15px;
-  }
-  .slogan {
-    font-size: 13px;
-  }
 
-  .second-container .second-container-desc {
-    font-weight: bold;
-    font-size: 20px;
-    width: 90%;
-  }
-
-  .worker-info p {
-    font-size: 20px;
-  }
-  .worker-card{
-    margin-bottom: 30px;
-  }
-
-  .worker-card h3{
-    font-size: 25px;
-  }
-
-  .worker-card-info p{
-    font-size: 25px;
-  }
-
-  .why-us-desc{
-    font-size: 20px;
-  color: #ddd;
-  margin: 0;
-  padding: 0;
-  text-align: center;
-  width: 90%;
-  }
-
-  .why-us-card p{
-    font-size:25px ;
-  }
-  .achievement p{
-    font-weight: bold;
-    font-size: 25px;
-    width: 90%;
-  }
-
-
-}
 
 @media (min-width: 740px) {
   .why-us-container {
