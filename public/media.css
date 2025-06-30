@@ -35,7 +35,6 @@
   }
 }
 
-
 @media (max-width: 735px) {
   .logo {
     margin-right: 5px;
@@ -73,41 +72,40 @@
     width: 90%;
     padding-right: 0px;
   }
-  .worker-card{
+  .worker-card {
     width: 350px;
   }
-  #why-us-header{
+  #why-us-header {
     font-size: 35px;
     text-align: center;
   }
-  .why-us-desc{
+  .why-us-desc {
     font-size: 15px;
   }
-  .achievement p{
+  .achievement p {
     font-size: 15px;
     width: 80%;
   }
-  .counter-box{
+  .counter-box {
     width: 300px;
   }
-  .counter-box p{
+  .counter-box p {
     position: relative;
     text-align: center;
     right: 30px;
   }
-  .vertical-separator{
+  .vertical-separator {
     width: 300px;
   }
-  .service-container p{
+  .service-container p {
     width: 90%;
     font-size: 20px;
   }
-  .whatsapp-button{
+  .whatsapp-button {
     right: 50px;
     bottom: 60px;
-    
   }
-  .whatsapp-button img{
+  .whatsapp-button img {
     width: 60px;
     height: 60px;
   }
@@ -133,12 +131,11 @@
   form .textarea-field {
     position: relative;
     left: 35px;
-    }
-    .input-box .input-field {
-     
-  position: relative;
-  left: 30px;
-    }
+  }
+  .input-box .input-field {
+    position: relative;
+    left: 30px;
+  }
 }
 @media (min-width: 900px) {
   .secondary-workers {
@@ -196,7 +193,7 @@
     padding-right: 50px;
   }
   .main-worker {
-    flex-direction: row;
+    flex-direction: column;
   }
   .why-us-container {
     flex-direction: row;
@@ -204,12 +201,12 @@
   form .textarea-field {
     position: relative;
     left: 35px;
-    }
-    .input-box .input-field {
-     
-  position: relative;
-  left: 30px;
-    }
+  }
+  .input-box .input-field {
+    position: relative;
+    left: 30px;
+  }
+  
 }
 
 @media (min-width: 1263px) {
@@ -219,12 +216,17 @@
   form .textarea-field {
     position: relative;
     left: 35px;
-    }
-    .input-box .input-field {
-     
-  position: relative;
-  left: 30px;
-    }
+  }
+  .input-box .input-field {
+    position: relative;
+    left: 30px;
+  }
+  .main-worker {
+    flex-direction: row;
+  }
+  .main-worker-img{
+    margin-top: 50px;
+  }
 }
 
 @media (min-width: 1358px) {
@@ -241,13 +243,12 @@
     width: 60%;
   }
   form .textarea-field {
-  position: relative;
-  left: 35px;
+    position: relative;
+    left: 35px;
   }
   .input-box .input-field {
-   
-position: relative;
-left: 30px;
+    position: relative;
+    left: 30px;
   }
 }
 @media (max-width: 830px) {
@@ -257,20 +258,19 @@ left: 30px;
   }
   .input-box {
     flex-direction: column;
-
   }
   .input-box .input-field {
     width: 100%;
     justify-content: center;
     align-items: center;
     margin: auto;
-position: relative;
-left: 30px;
+    position: relative;
+    left: 30px;
   }
   form .textarea-field {
     width: 100%;
     position: relative;
-left: 30px;
+    left: 30px;
   }
   form button {
     width: 80%;
@@ -296,30 +296,30 @@ left: 30px;
   .main-worker .main-worker-img {
     min-width: 350px;
   }
-.contact-container form{
-  width: 300px;
-} form .textarea-field {
+  .contact-container form {
+    width: 300px;
+  }
+  form .textarea-field {
     width: 100%;
     position: relative;
-left: 30px;
+    left: 30px;
   }
   form .textarea-field {
     position: relative;
-left:20px;
+    left: 20px;
   }
   .input-box .input-field {
-     position: relative;
-left:20px;
-
+    position: relative;
+    left: 20px;
   }
- form button{
-  position: relative;
-left:0px;
- }
+  form button {
+    position: relative;
+    left: 0px;
+  }
 
- .info-container{
-  width: 300px;
- }
+  .info-container {
+    width: 300px;
+  }
 }
 
 .hidden {
