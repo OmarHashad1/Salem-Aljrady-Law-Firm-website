@@ -155,10 +155,7 @@
     position: relative;
     bottom: 30px;
   }
-  #card-12 .back h1 {
-    position: relative;
-    top: 40px;
-  }
+
   #card-13 .front {
     background-image: url('../assets/imgs/card-images/card-13.jpg');
     background-size: cover;

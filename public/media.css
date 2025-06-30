@@ -36,12 +36,109 @@
 }
 
 
+@media (max-width: 735px) {
+  .logo {
+    margin-right: 5px;
+  }
+  .logo img {
+    height: 100px;
+  }
+  .separator {
+    height: 80px;
+  }
+  .slogan,
+  .slogan span {
+    font-size: 8px;
+  }
+
+  .main h1 {
+    font-size: 25px;
+    width: 70%;
+    text-align: center;
+  }
+  .main p {
+    width: 80%;
+    font-size: 15px;
+  }
+  #Aljrady-logo {
+    left: 60px;
+  }
+  .worker-info h3 {
+    font-size: 15px;
+    padding: 0px;
+  }
+
+  .worker-info p {
+    font-size: 15px;
+    width: 90%;
+    padding-right: 0px;
+  }
+  .worker-card{
+    width: 350px;
+  }
+  #why-us-header{
+    font-size: 35px;
+    text-align: center;
+  }
+  .why-us-desc{
+    font-size: 15px;
+  }
+  .achievement p{
+    font-size: 15px;
+    width: 80%;
+  }
+  .counter-box{
+    width: 300px;
+  }
+  .counter-box p{
+    position: relative;
+    text-align: center;
+    right: 30px;
+  }
+  .vertical-separator{
+    width: 300px;
+  }
+  .service-container p{
+    width: 90%;
+    font-size: 20px;
+  }
+  .whatsapp-button{
+    right: 50px;
+    bottom: 60px;
+    
+  }
+  .whatsapp-button img{
+    width: 60px;
+    height: 60px;
+  }
+}
 
 @media (min-width: 740px) {
   .why-us-container {
     flex-direction: row;
     flex-wrap: wrap;
   }
+  .main h1 {
+    font-size: 30px;
+    width: 70%;
+    text-align: center;
+  }
+  .main p {
+    width: 80%;
+    font-size: 15px;
+  }
+  #Aljrady-logo {
+    left: 70px;
+  }
+  form .textarea-field {
+    position: relative;
+    left: 35px;
+    }
+    .input-box .input-field {
+     
+  position: relative;
+  left: 30px;
+    }
 }
 @media (min-width: 900px) {
   .secondary-workers {
@@ -68,7 +165,17 @@
     height: 200px;
     display: none;
   }
-
+  .main p {
+    width: 60%;
+    font-size: 25px;
+  }
+  #Aljrady-logo {
+    left: 80px;
+  }
+  .second-container .second-container-desc {
+    width: 60%;
+    font-size: 25px;
+  }
 }
 
 @media (min-width: 1055px) {
@@ -86,7 +193,7 @@
     margin-right: 0px;
   }
   .nav-links {
-    padding-right: 200px;
+    padding-right: 50px;
   }
   .main-worker {
     flex-direction: row;
@@ -94,12 +201,30 @@
   .why-us-container {
     flex-direction: row;
   }
+  form .textarea-field {
+    position: relative;
+    left: 35px;
+    }
+    .input-box .input-field {
+     
+  position: relative;
+  left: 30px;
+    }
 }
 
 @media (min-width: 1263px) {
   .worker-info {
     padding-top: 25px;
   }
+  form .textarea-field {
+    position: relative;
+    left: 35px;
+    }
+    .input-box .input-field {
+     
+  position: relative;
+  left: 30px;
+    }
 }
 
 @media (min-width: 1358px) {
@@ -112,24 +237,40 @@
     padding: 20px;
     flex-wrap: nowrap;
   }
-.main-service-section {
-width: 60%;
-}
+  .main-service-section {
+    width: 60%;
+  }
+  form .textarea-field {
+  position: relative;
+  left: 35px;
+  }
+  .input-box .input-field {
+   
+position: relative;
+left: 30px;
+  }
 }
 @media (max-width: 830px) {
   .contact-container form {
     width: 350px;
+    margin: auto;
   }
   .input-box {
     flex-direction: column;
+
   }
   .input-box .input-field {
     width: 100%;
     justify-content: center;
     align-items: center;
+    margin: auto;
+position: relative;
+left: 30px;
   }
   form .textarea-field {
     width: 100%;
+    position: relative;
+left: 30px;
   }
   form button {
     width: 80%;
@@ -141,10 +282,50 @@ width: 60%;
     position: static;
   }
 }
+@media (max-width: 380px) {
+  .worker-info p {
+    font-size: 15px;
+    width: 90%;
+    padding-right: 0px;
+  }
+
+  .worker-info h3 {
+    font-size: 15px;
+    padding: 0px;
+  }
+  .main-worker .main-worker-img {
+    min-width: 350px;
+  }
+.contact-container form{
+  width: 300px;
+} form .textarea-field {
+    width: 100%;
+    position: relative;
+left: 30px;
+  }
+  form .textarea-field {
+    position: relative;
+left:20px;
+  }
+  .input-box .input-field {
+     position: relative;
+left:20px;
+
+  }
+ form button{
+  position: relative;
+left:0px;
+ }
+
+ .info-container{
+  width: 300px;
+ }
+}
+
 .hidden {
   opacity: 0;
   transition: all 1s;
-  transform: translateX(-100%);
+  transform: translateX(100%);
 }
 .show {
   opacity: 1;
@@ -156,4 +337,3 @@ width: 60%;
     transition: none;
   }
 }
-
